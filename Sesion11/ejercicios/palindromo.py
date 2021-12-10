@@ -41,3 +41,5 @@ def determinarPalindromo(palabra):
     else:
         print("La palabra no es un palindromo")
         return False
+
+

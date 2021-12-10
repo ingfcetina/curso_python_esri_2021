@@ -26,6 +26,7 @@ def calcularFactorial(numero):
     factorial = 1
 
     for i in range (1,numero+1):
+        print ("valor i: {}".format(i))
         print ("revisemos como opera el ciclo...")
         print("i = {}, factorial: {}".format(i, factorial))
         factorial = factorial*i
@@ -34,3 +35,4 @@ def calcularFactorial(numero):
     return factorial
 
 calcularFactorial(5)
+
